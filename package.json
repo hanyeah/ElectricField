@@ -1,0 +1,19 @@
+{
+  "name": "ElectricField",
+  "main": "./lib/ElectricField.js",
+  "version": "0.0.0",
+  "description": "hanyeah's electric field",
+  "typings": "./lib/ElectricField.d.ts",
+  "author": "hanyeah <hanlidong@yeah.net> (http://hanyeah.com)",
+  "scripts": {
+    "start": "npm run build && npm run server",
+    "copylibs": "node ./scripts/copylibs.js",
+    "init": "npm install && npm run copylibs",
+    "build": "tsc-plus --reorderFiles && node ./scripts/build.js",
+    "server": "cd ./dist && live-server"
+  },
+  "dependencies": {
+    "glslCanvasTs": "git+ssh://git@github.com:hanyeah/glslCanvasTs.git"
+  },
+  "devDependencies": {}
+}
