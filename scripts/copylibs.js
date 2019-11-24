@@ -2,4 +2,4 @@ var copyFile = require('./copyfile.js');
 
 console.log(__dirname)
 var dir = './../src/lib';
-copyFile('./../node_modules/glslCanvasTs/GlslCanvas.d.ts', dir+'/GlslCanvas.d.ts');
+copyFile('./../node_modules/PixiTs/PIXI.d.ts', dir+'/PIXI.d.ts');

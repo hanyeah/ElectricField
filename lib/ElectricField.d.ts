@@ -1,6 +1,5 @@
 declare namespace hanyeah.electricField {
     class ElectricField {
-        glslCanvas: GlslCanvas;
         constructor(canvas: HTMLCanvasElement);
     }
 }
@@ -10,8 +9,8 @@ declare namespace hanyeah.electricField {
     }
 }
 declare namespace hanyeah.electricField {
-    const FragCode: string;
+    const fragCode: string;
 }
 declare namespace hanyeah.electricField {
-    const VertCode: string;
+    const vertCode: string;
 }

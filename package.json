@@ -13,7 +13,7 @@
     "server": "cd ./dist && live-server"
   },
   "dependencies": {
-    "glslCanvasTs": "git+ssh://git@github.com:hanyeah/glslCanvasTs.git"
+    "PixiTs": "git+ssh://git@github.com:hanyeah/PixiTs.git"
   },
   "devDependencies": {}
 }
